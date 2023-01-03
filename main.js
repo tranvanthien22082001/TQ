@@ -9,7 +9,7 @@ const sr = ScrollReveal ({
 	distance: '65px',
 	duration: 2600,
 	delay: 450,
-	reset: true
+	reset: false,
 });
 
 sr.reveal('.text',{delay:200, origin:'left'});
